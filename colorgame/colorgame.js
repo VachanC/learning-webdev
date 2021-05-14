@@ -16,7 +16,7 @@ colorDisplay.textContent = pickedColor;
 for (let i = 0; i < squares.length; i++) {
   squares[i].style.background = colors[i];
   squares[i].addEventListener("click", () => {
-    let clickedColor = sqaures[i].style.background;
+    let clickedColor = squares[i].style.background;
     if (clickedColor === pickedColor) {
       alert("clicked");
     }
